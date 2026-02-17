@@ -105,9 +105,12 @@ ul {
 .part-title {
   margin: 0 0 12px;
   font-size: 1.05rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;            /* allow normal case for filenames */
   color: #222;
+  overflow-wrap: anywhere;         /* handle long filenames cleanly */
+  word-break: break-word;
 }
 
 .part-figure {
