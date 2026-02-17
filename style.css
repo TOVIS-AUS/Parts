@@ -113,7 +113,7 @@ ul {
   word-break: break-word;
 }
 
-/* NEW: Part number block */
+/* Part number block */
 .part-meta {
   margin: 0 0 12px;
   padding-top: 2px;
@@ -149,6 +149,44 @@ ul {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* NEW: SEO Keywords block */
+.seo-block {
+  margin-top: 26px;
+  border: 1px solid var(--line);
+  padding: 18px;
+  background: #fff;
+}
+
+.seo-muted {
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.seo-block details {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.seo-block summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #222;
+  list-style: none;
+}
+
+.seo-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.kw-text {
+  margin-top: 10px;
+  color: #222;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .footer {
