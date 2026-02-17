@@ -151,44 +151,6 @@ ul {
   display: block;
 }
 
-/* NEW: SEO Keywords block */
-.seo-block {
-  margin-top: 26px;
-  border: 1px solid var(--line);
-  padding: 18px;
-  background: #fff;
-}
-
-.seo-muted {
-  color: var(--muted);
-  margin-bottom: 10px;
-}
-
-.seo-block details {
-  border-top: 1px solid var(--line);
-  padding-top: 10px;
-}
-
-.seo-block summary {
-  cursor: pointer;
-  font-weight: 600;
-  color: #222;
-  list-style: none;
-}
-
-.seo-block summary::-webkit-details-marker {
-  display: none;
-}
-
-.kw-text {
-  margin-top: 10px;
-  color: #222;
-  font-size: 0.95rem;
-  line-height: 1.55;
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
 .footer {
   margin-top: 28px;
   padding: 20px 0 36px;
@@ -204,6 +166,39 @@ ul {
 .contact-list li {
   margin: 8px 0;
   color: var(--text);
+}
+
+/* Small footer note for keywords (visible, but unobtrusive) */
+.seo-footnote {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.seo-footnote details {
+  margin: 0;
+}
+
+.seo-footnote summary {
+  cursor: pointer;
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.seo-footnote summary::-webkit-details-marker {
+  display: none;
+}
+
+.seo-footnote .kw-text {
+  margin: 10px 0 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: #777;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 a {
