@@ -95,22 +95,50 @@ ul {
 }
 
 .part-card {
-  border: 1px solid var(--line);   /* thin grey square line */
-  border-radius: 0;                /* square corners */
+  border: 1px solid var(--line);
+  border-radius: 0;
   padding: 18px;
-  margin: 18px 0;                  /* space after each part */
+  margin: 18px 0;
   background: #fff;
 }
 
 .part-title {
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: 0.01em;
-  text-transform: none;            /* allow normal case for filenames */
+  text-transform: none;
   color: #222;
-  overflow-wrap: anywhere;         /* handle long filenames cleanly */
+  overflow-wrap: anywhere;
   word-break: break-word;
+}
+
+/* NEW: Part number block */
+.part-meta {
+  margin: 0 0 12px;
+  padding-top: 2px;
+}
+
+.part-meta-label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.part-nos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.part-nos li {
+  margin: 4px 0;
+  color: #222;
+  font-size: 0.98rem;
+  line-height: 1.35;
 }
 
 .part-figure {
