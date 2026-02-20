@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
   <url>
-    <loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://tovis-aus.github.io/Parts/</loc>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Optional: add your real pages below (ONLY if they exist) -->
+  <!-- Example:
+  <url>
+    <loc>https://tovis-aus.github.io/Parts/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+
+  <!-- Assets are NOT needed in sitemap (CSS/JS/images). Only indexable pages (HTML). -->
+
 </urlset>
